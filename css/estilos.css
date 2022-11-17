@@ -1,0 +1,187 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 45, 5%;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  width: auto;
+  height: fit-content;
+  overflow: auto;
+}
+
+.preHeader {
+  background-color: aliceblue;
+  color: rgb(190, 134, 241);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 15px;
+  position: sticky;
+  justify-self: center;
+}
+
+nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 5fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background: rgb(72, 48, 106);
+  background: linear-gradient(74deg, rgb(72, 48, 106) 35%, rgb(148, 187, 233) 100%);
+  color: aliceblue;
+  height: auto;
+  width: auto;
+  position: sticky;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  justify-self: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.boton_menu {
+  display: flex;
+  justify-content: flex-end;
+  transition-property: all;
+  transition-duration: 0, 5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+}
+.boton_menu:hover {
+  width: 100px;
+  background-color: purple;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+}
+
+.presentacion {
+  color: rgb(190, 134, 241);
+  font-weight: bolder;
+  text-align: center;
+}
+
+.carrousel1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lanzamientos {
+  background-color: rgb(190, 134, 241);
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.botonShop {
+  background-color: rgb(190, 134, 241);
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.giftcards {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  background: rgb(72, 48, 106);
+  background: linear-gradient(74deg, rgb(72, 48, 106) 35%, rgb(148, 187, 233) 100%);
+  color: aliceblue;
+  width: 100%;
+  text-align: start;
+}
+
+.contactos {
+  text-align: center;
+}
+
+.newsletter {
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: start;
+  justify-items: stretch;
+  align-items: center;
+  display: grid;
+  width: 95%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-template-rows: 100px 100px;
+  grid-row-gap: 10px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-header {
+  justify-self: center;
+}
+
+.botones_sesion {
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
