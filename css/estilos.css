@@ -17,7 +17,7 @@ body {
   overflow: auto;
 }
 
-.preHeader {
+.pre-header {
   background-color: aliceblue;
   color: rgb(190, 134, 241);
   display: flex;
@@ -119,7 +119,7 @@ h3 {
   text-decoration: underline;
 }
 
-.botonShop {
+.boton-shop {
   background-color: rgb(190, 134, 241);
   color: aliceblue;
   font-weight: bolder;
@@ -169,7 +169,7 @@ header {
   justify-self: center;
 }
 
-.botones_sesion {
+.botones-sesion {
   justify-content: center;
 }
 

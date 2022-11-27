@@ -22,7 +22,7 @@ body {
 	height: fit-content;
 	overflow: auto;
 }
-.preHeader {
+.pre-header {
 	background-color: $background-color_1;
 	color: $color_1;
 	display: flex;
@@ -75,7 +75,7 @@ a {
 	text-decoration: none;
 	color: $color_2;
 }
-.boton_menu {
+.boton-menu {
 	display: flex;
 	justify-content: flex-end;
 	transition-property: all;
@@ -111,7 +111,7 @@ h3 {
 	text-align: center;
 	text-decoration: underline;
 }
-.botonShop {
+.boton-shop {
 	background-color: $background-color_2;
 	color: $color_2;
 	font-weight: bolder;
@@ -154,7 +154,7 @@ header {
 .grid-header {
 	justify-self: center;
 }
-.botones_sesion {
+.botones-sesion {
 	justify-content: center;
 }
 @media (min-width: 768px) {
